@@ -1,3 +1,0 @@
-# Programming Philippines
-
-Lorem ipsum
