@@ -7,3 +7,11 @@ declare namespace App {
 	// interface PageData {}
 	// interface Platform {}
 }
+
+type CardInfo = {
+	name: string;
+	position: string;
+	description: string;
+	image: string;
+	flip: boolean;
+};
