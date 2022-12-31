@@ -18,6 +18,12 @@ type CardInfo = {
 
 type MemberInfo = {
 	name: string;
-	githubNodeId: string;
+	githubId: string;
 	githubUsername?: string;
 };
+
+type Project = {
+	name: string;
+	description: string;
+	github: string;
+}
