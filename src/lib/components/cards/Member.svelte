@@ -22,7 +22,7 @@
 				>
 					<img
 						class="rounded-full w-full h-full"
-						src={'https://avatars.githubusercontent.com/u/' + info.githubNodeId + '?v=4'}
+						src={'https://avatars.githubusercontent.com/u/' + info.githubId + '?v=4'}
 						alt={info.name}
 					/>
 				</a>
