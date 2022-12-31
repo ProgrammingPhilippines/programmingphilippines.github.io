@@ -1,5 +1,6 @@
 <script>
 	import { slide } from 'svelte/transition';
+	import Logo from '../icons/Logo.svelte';
 	import MenuIcon from '../icons/MenuIcon.svelte';
 	import XMark from '../icons/XMark.svelte';
 
@@ -16,13 +17,15 @@
 	};
 </script>
 
-
-<div class="navbar duration-150">
+<div class="navbar duration-150 max-w-4xl m-auto">
+	<div class="navbar-start">
+		<Logo className="w-16 h-16" />
+	</div>
 	<ul
 		class="hidden md:flex md:items-center md:justify-center md:gap-8 md:w-full md:navbar-center font-normal"
 	>
 		{#each navLinks as link}
-			<li><a href={link.href}>{link.label}</a></li>
+			<li class="hover:scale-110 duration-100"><a href={link.href}>{link.label}</a></li>
 		{/each}
 	</ul>
 	<div class="navbar-end flex w-full items-center justify-end md:hidden">
@@ -43,7 +46,9 @@
 			</div>
 			<ul class="navbar-center w-full flex flex-col items-center gap-4">
 				{#each navLinks as link}
-					<li on:keydown={toggleMenu} on:click={toggleMenu}><a href={link.href}>{link.label}</a></li>
+					<li on:keydown={toggleMenu} on:click={toggleMenu}>
+						<a href={link.href}>{link.label}</a>
+					</li>
 				{/each}
 			</ul>
 		</div>
