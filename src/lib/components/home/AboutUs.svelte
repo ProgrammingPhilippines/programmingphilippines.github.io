@@ -17,7 +17,7 @@
 			<h1 class="text-4xl font-normal text-center">Others</h1>
 			<div class="grid grid-cols-4 grid-rows-10 md:grid-cols-8 md:grid-rows-4 gap-2 mt-2">
 				{#each usersConfig as user}
-					<Member ing={user} />
+					<Member info={user} />
 				{/each}
 			</div>
 		</div>

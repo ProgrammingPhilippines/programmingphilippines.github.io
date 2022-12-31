@@ -2,16 +2,18 @@
 	import DiscordIcon from '../icons/DiscordIcon.svelte';
 	import FacebookIcon from '../icons/FacebookIcon.svelte';
 	import GithubIcon from '../icons/GithubIcon.svelte';
+	import Logo from '../icons/Logo.svelte';
 </script>
 
 <footer class="bg-base-100 text-base-content">
-	<div class="divider"></div>
+	<div class="divider" />
 	<div class="p-10 footer wrap max-w-5xl m-auto">
 		<div>
-			<h1 class="text-xl font-bold text-primary">Programming PH</h1>
-			<p>
-				Developed and maintained by the contributors.
-			</p>
+			<div class="logo flex flex-row items-center w-full">
+				<Logo className="w-16 h-16" />
+				<h1 class="text-xl font-bold text-primary">rogramming PH</h1>
+			</div>
+			<p>Developed and maintained by the contributors.</p>
 		</div>
 		<div>
 			<span class="footer-title">SOCIALS</span>

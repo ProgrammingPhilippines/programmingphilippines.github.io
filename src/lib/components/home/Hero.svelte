@@ -6,8 +6,8 @@
 
 <div class="hero min-h-screen dark:url('/darkmode_bg.svg')">
 	<div class="hero-content md:justify-start md:items-start md:w-full">
-		<div class="max-w-4xl md:-mt-12 m-auto">
-			<h1 class="text-4xl tracking-wide">Programming Philippines</h1>
+		<div class="max-w-5xl m-auto">
+			<h1 class="text-4xl lg:text-6xl tracking-wide">Programming Philippines</h1>
 			<p class="tracking-wide leading-8 text-base mt-2">
 				Welcome to the Programming Philippines Community website! We are an extension of the
 				Programming Philippines Facebook Group and a place for programmers of all skill levels to
@@ -23,7 +23,7 @@
 				<div class="md:w-1/4">
 					<a
 						href="https://discord.gg/MmWwgXQezf"
-						class="btn btn-ghost btn-md btn-circle hover:btn-primary"
+						class="btn btn-ghost btn-md btn-circle hover:btn-primary-content"
 						rel="noreferrer"
 						target="_blank"
 					>
@@ -31,7 +31,7 @@
 					</a>
 					<a
 						href="https://github.com/programmingphilippines"
-						class=" btn btn-ghost btn-md btn-circle hover:btn-primary"
+						class=" btn btn-ghost btn-md btn-circle hover:btn-primary-content"
 						rel="noreferrer"
 						target="_blank"
 					>
@@ -39,7 +39,7 @@
 					</a>
 					<a
 						href="https://www.facebook.com/groups/programmingphilippines"
-						class="btn btn-ghost btn-md btn-circle hover:btn-primary"
+						class="btn btn-ghost btn-md btn-circle hover:btn-primary-content"
 						rel="noreferrer"
 						target="_blank"
 					>
