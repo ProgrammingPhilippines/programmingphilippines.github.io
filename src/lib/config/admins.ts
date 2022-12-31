@@ -2,16 +2,16 @@ export const adminsConfig: CardInfo[] = [
 	{
 		name: 'Gervin Guevarra',
 		position: 'Senior Software Engineer',
-		image: 'gerv_admin.png',
+		image: 'https://avatars.githubusercontent.com/u/25771885?v=4',
 		description: `
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Donec et risus ac turpis interdum facilisis eget et justo. Mauris nec ex pellentesque, mattis magna a, venenatis dui. Sed venenatis ex ac mauris vehicula, eu scelerisque dolor blandit.
 		`,
 		flip: false,
 	},
 	{
-		name: 'Kyle Cedric',
+		name: 'Kyle Cancio',
 		position: 'Senior Software Engineer',
-		image: 'gerv_admin.png',
+		image: 'https://avatars.githubusercontent.com/u/11833469?v=4',
 		description: `
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Donec et risus ac turpis interdum facilisis eget et justo. Mauris nec ex pellentesque, mattis magna a, venenatis dui. Sed venenatis ex ac mauris vehicula, eu scelerisque dolor blandit.
 		`,
@@ -19,17 +19,17 @@ export const adminsConfig: CardInfo[] = [
 	},
 	{
 		name: 'Ivan Ilagan',
-		position: 'Senior Software Engineer',
-		image: 'gerv_admin.png',
+		position: 'Junior Software Engineer',
+		image: 'https://avatars.githubusercontent.com/u/53649331?v=4',
 		description: `
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Donec et risus ac turpis interdum facilisis eget et justo. Mauris nec ex pellentesque, mattis magna a, venenatis dui. Sed venenatis ex ac mauris vehicula, eu scelerisque dolor blandit.
 		`,
 		flip: false,
 	},
 	{
-		name: 'Derrick',
+		name: 'Derrick Viallanueva',
 		position: 'Senior System Administrator',
-		image: 'gerv_admin.png',
+		image: 'https://avatars.githubusercontent.com/u/56784988?v=4',
 		description: `
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Donec et risus ac turpis interdum facilisis eget et justo. Mauris nec ex pellentesque, mattis magna a, venenatis dui. Sed venenatis ex ac mauris vehicula, eu scelerisque dolor blandit.
 		`,
