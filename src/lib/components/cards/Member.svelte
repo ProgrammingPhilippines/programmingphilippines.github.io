@@ -1,20 +1,32 @@
 <script lang="ts">
-	export let ing: string = 'anonymous';
+	export let info: MemberInfo;
 </script>
 
-<div class="tooltip tooltip-top" data-tip={ing}>
+<div class="tooltip tooltip-top" data-tip={info.name}>
 	<div class="btn btn-circle btn-lg">
-		<div class="avatar placeholder">
-			<div class="bg-neutral-focus text-neutral-content rounded-full w-16">
-				<!-- <img
-					class="w-full h-full"
-					src="https://avatars.githubusercontent.com/u/46004116?v=4"
-					alt="avatar"
-				/> -->
-				<span class="text-xl">
-					{ing[0].toUpperCase()}
-				</span>
+		{#if !info.githubUsername}
+			<div class="avatar placeholder">
+				<div class="bg-neutral-focus text-neutral-content rounded-full w-16">
+					<span class="text-xl">
+						{info.name[0].toUpperCase()}
+					</span>
+				</div>
 			</div>
-		</div>
+		{:else}
+			<div class="avatar">
+				<a
+					href={'https://github.com/' + info.githubUsername}
+					rel="noreferrer"
+					target="_blank"
+					class="btn btn-md btn-circle w-full h-full"
+				>
+					<img
+						class="rounded-full w-full h-full"
+						src={'https://avatars.githubusercontent.com/u/' + info.githubNodeId + '?v=4'}
+						alt={info.name}
+					/>
+				</a>
+			</div>
+		{/if}
 	</div>
 </div>
