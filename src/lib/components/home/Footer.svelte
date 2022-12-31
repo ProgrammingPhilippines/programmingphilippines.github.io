@@ -14,6 +14,7 @@
 				<h1 class="text-xl font-bold text-primary">rogramming PH</h1>
 			</div>
 			<p>Developed and maintained by the contributors.</p>
+			&copy; {new Date().getFullYear()}
 		</div>
 		<div>
 			<span class="footer-title">SOCIALS</span>

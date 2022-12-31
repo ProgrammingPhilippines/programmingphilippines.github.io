@@ -4,11 +4,11 @@
 	import GithubIcon from '$lib/components/icons/GithubIcon.svelte';
 </script>
 
-<div class="hero min-h-screen dark:url('/darkmode_bg.svg')">
-	<div class="hero-content md:justify-start md:items-start md:w-full">
-		<div class="max-w-5xl m-auto">
-			<h1 class="text-4xl lg:text-6xl tracking-wide">Programming Philippines</h1>
-			<p class="tracking-wide leading-8 text-base mt-2">
+<div class="relative hero min-h-screen">
+	<div class="hero-content max-w-5xl m-auto md:justify-start md:items-start md:w-full">
+		<div class="lg:-mt-24">
+			<h1 class="text-3xl md:text-4xl lg:text-6xl tracking-wide">Programming Philippines</h1>
+			<p class="tracking-wide leading-6 max-w-2xl text-sm md:text-base mt-2">
 				Welcome to the Programming Philippines Community website! We are an extension of the
 				Programming Philippines Facebook Group and a place for programmers of all skill levels to
 				connect, ask questions, and share resources and knowledge. Our server covers a wide range of
@@ -49,13 +49,14 @@
 			</div>
 		</div>
 	</div>
+	<img class="absolute bottom-0 right-0 -z-10" src="/lightmode_bg.svg" alt="light mode background" />
 </div>
 
-<style lang="postcss">
+<!-- <style lang="postcss">
 	.hero {
 		background-image: url('/lightmode_bg.svg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-</style>
+</style> -->
