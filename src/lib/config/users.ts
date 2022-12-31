@@ -1,54 +1,59 @@
-
-
-export const usersConfig: MemberInfo[] = [
+export const userList: MemberInfo[] = [
 	{
-		name: 'Benjie Ben Garcia',
-		githubId: '50514928',
-		githubUsername: 'mystique09'
+		name: "Benjie Ben Garcia",
+		githubId: "50514928",
+		githubUsername: "mystique09",
 	},
 	{
-		name: 'Cunning Bard',
-		githubId: '61928294',
-		githubUsername: 'CunningBard'
+		name: "Cunning Bard",
+		githubId: "61928294",
+		githubUsername: "CunningBard",
 	},
 	{
-		name: 'John Carlo Camara',
-		githubId: '61928294',
+		name: "Shindou Mihou",
+		githubId: "69381903",
+		githubUsername: "shindouMihou",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "MJ",
+		githubId: "67622030",
+		githubUsername: "mahyellaw",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "John Carlo Camara",
+		githubId: "80168125",
+		githubUsername: "Jiseeeh",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
 	{
-		name: 'Anonymous',
-		githubId: '00000000',
+		name: "Anonymous",
+		githubId: "00000000",
 	},
-]
+	{
+		name: "Anonymous",
+		githubId: "00000000",
+	},
+];

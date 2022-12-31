@@ -1,4 +1,4 @@
-export const adminsConfig: CardInfo[] = [
+export const adminList: CardInfo[] = [
 	{
 		name: 'Gervin Guevarra',
 		position: 'Senior Software Engineer',
