@@ -15,3 +15,9 @@ type CardInfo = {
 	image: string;
 	flip: boolean;
 };
+
+type MemberInfo = {
+	name: string;
+	githubNodeId: string;
+	githubUsername?: string;
+};
