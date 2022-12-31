@@ -54,16 +54,16 @@
 		<div
 			in:slide={{ duration: 300 }}
 			out:slide={{ duration: 200 }}
-			class="bg-base-200 fixed z-10 top-0 left-0 h-screen w-screen"
+			class="bg-neutral fixed z-10 top-0 left-0 h-screen w-screen"
 		>
 			<div class="close-btn absolute top-4 right-2 flex items-center justify-center">
 				<button on:click={toggleMenu} class="btn btn-circle btn-ghost">
 					<XMark className="w-6 h-6 stroke-primary" />
 				</button>
 			</div>
-			<ul class="w-full flex flex-col items-center gap-8">
+			<ul class="w-full flex flex-col items-end gap-8 px-6">
 				{#each navLinks as link}
-					<li on:keydown={toggleMenu} on:click={toggleMenu}>
+					<li class="text-2xl text-neutral-content font-normal hover:link-primary duration-150" on:keydown={toggleMenu} on:click={toggleMenu}>
 						{#if link.external}
 							<a href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
 						{:else}
