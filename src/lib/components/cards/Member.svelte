@@ -19,11 +19,13 @@
 					rel="noreferrer"
 					target="_blank"
 					class="btn btn-md btn-circle w-full h-full"
+					draggable="false"
 				>
 					<img
 						class="rounded-full w-full h-full"
 						src={info.avatarUrl}
 						alt={info.name}
+						draggable="false"
 					/>
 				</a>
 			</div>
