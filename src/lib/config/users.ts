@@ -1,59 +1,31 @@
 export const userList: MemberInfo[] = [
 	{
 		name: "Benjie Ben Garcia",
-		githubId: "50514928",
+		avatarUrl: "https://avatars.githubusercontent.com/u/50514928?v=4",
 		githubUsername: "mystique09",
 	},
 	{
 		name: "Cunning Bard",
-		githubId: "61928294",
+		avatarUrl: "https://avatars.githubusercontent.com/u/61928294?v=4",
 		githubUsername: "CunningBard",
 	},
 	{
 		name: "Shindou Mihou",
-		githubId: "69381903",
+		avatarUrl: "https://avatars.githubusercontent.com/u/69381903?v=4",
 		githubUsername: "shindouMihou",
 	},
 	{
 		name: "MJ",
-		githubId: "67622030",
+		avatarUrl: "https://avatars.githubusercontent.com/u/67622030?v=4",
 		githubUsername: "mahyellaw",
 	},
 	{
 		name: "John Carlo Camara",
-		githubId: "80168125",
+		avatarUrl: "https://avatars.githubusercontent.com/u/80168125?v=4",
 		githubUsername: "Jiseeeh",
 	},
 	{
 		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
-	},
-	{
-		name: "Anonymous",
-		githubId: "00000000",
+		avatarUrl: "",
 	},
 ];
