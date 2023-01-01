@@ -18,7 +18,7 @@ type CardInfo = {
 
 type MemberInfo = {
 	name: string;
-	githubId: string;
+	avatarUrl: string;
 	githubUsername?: string;
 };
 
