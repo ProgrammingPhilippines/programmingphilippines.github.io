@@ -5,8 +5,7 @@
 	import Logo from '../icons/Logo.svelte';
 </script>
 
-<footer class="bg-base-100 text-base-content">
-	<div class="divider" />
+<footer class="bg-base-200 text-base-content">
 	<div class="p-10 footer wrap max-w-5xl m-auto">
 		<div>
 			<div class="logo flex flex-row items-center w-full">
