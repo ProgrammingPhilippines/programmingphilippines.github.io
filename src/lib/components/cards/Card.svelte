@@ -9,7 +9,7 @@
 			class="card-body flex flex-col md:flex-row items-start justify-center gap-4"
 		>
 			<div class="h-full w-full md:w-1/3">
-				<img src={info.image} alt="profile" class="w-full h-full" />
+				<img draggable="false" src={info.image} alt="profile" class="w-full h-full object-cover" />
 			</div>
 			<div
 				class="card-title h-full w-full max-w-4xl md:w-1/2 flex flex-col items-start justify-start"
