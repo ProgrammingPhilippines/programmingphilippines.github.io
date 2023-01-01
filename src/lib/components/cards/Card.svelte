@@ -16,7 +16,7 @@
 			>
 				<h1 class="text-3xl">{info.name}</h1>
 				<span class="text-sm text-primary font-normal">{info.position}</span>
-				<p class="text-base max-w-4xl tracking-wide leading-7 font-light">{info.description}</p>
+				<p class="text-base max-w-xl tracking-wide leading-7 font-light">{info.description}</p>
 			</div>
 		</div>
 	</div>
