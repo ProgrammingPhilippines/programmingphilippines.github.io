@@ -6,7 +6,7 @@
 </script>
 
 <footer class="bg-base-200 text-base-content">
-	<div class="p-10 footer wrap max-w-5xl m-auto">
+	<div class="p-10 footer items-center wrap max-w-5xl m-auto">
 		<div>
 			<div class="logo flex flex-row items-center w-full">
 				<Logo className="w-16 h-16" />
