@@ -25,7 +25,35 @@ export const userList: MemberInfo[] = [
 		githubUsername: "Jiseeeh",
 	},
 	{
-		name: "Anonymous",
+		name: "Umi",
+		avatarUrl: "",
+	},
+	{
+		name: "Anubis",
+		avatarUrl: "",
+	},
+	{
+		name: "Lance",
+		avatarUrl: "",
+	},
+	{
+		name: "KAYDEN",
+		avatarUrl: "",
+	},
+	{
+		name: "suisoh",
+		avatarUrl: "",
+	},
+	{
+		name: "torque",
+		avatarUrl: "",
+	},
+	{
+		name: "Jed",
+		avatarUrl: "",
+	},
+	{
+		name: "NatePy",
 		avatarUrl: "",
 	},
 ];
