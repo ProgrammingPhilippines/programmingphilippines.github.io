@@ -5,7 +5,7 @@
 </script>
 
 <div class="relative hero min-h-screen">
-	<div class="hero-content max-w-5xl m-auto md:justify-start md:items-start md:w-full">
+	<div class="hero-content max-w-4xl m-auto md:justify-start md:items-start md:w-full">
 		<div class="lg:-mt-24  px-4 md:px-0">
 			<h1 class="text-3xl md:text-4xl lg:text-6xl tracking-wide">Programming Philippines</h1>
 			<p class="tracking-wide leading-6 max-w-3xl text-sm md:text-base mt-2">
@@ -49,14 +49,5 @@
 			</div>
 		</div>
 	</div>
-	<img class="absolute bottom-0 right-0 -z-10" src="/lightmode_bg.svg" alt="light mode background" />
+	<img class="absolute bottom-0 right-0 -z-10 w-full" src="/lightmode_bg.svg" alt="light mode background" />
 </div>
-
-<!-- <style lang="postcss">
-	.hero {
-		background-image: url('/lightmode_bg.svg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-</style> -->
