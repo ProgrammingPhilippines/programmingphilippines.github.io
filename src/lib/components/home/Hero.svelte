@@ -6,7 +6,7 @@
 
 <div class="relative hero min-h-screen">
 	<div class="hero-content max-w-5xl m-auto md:justify-start md:items-start md:w-full">
-		<div class="lg:-mt-24">
+		<div class="lg:-mt-24  px-4 md:px-0">
 			<h1 class="text-3xl md:text-4xl lg:text-6xl tracking-wide">Programming Philippines</h1>
 			<p class="tracking-wide leading-6 max-w-3xl text-sm md:text-base mt-2">
 				Welcome to the Programming Philippines Community website! We are an extension of the

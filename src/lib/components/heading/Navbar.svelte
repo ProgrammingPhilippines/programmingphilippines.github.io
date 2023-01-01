@@ -38,9 +38,9 @@
 		{#each navLinks as link}
 			<li class="hover:scale-110 duration-100">
 				{#if link.external}
-					<a href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
+					<a class="hover:link-primary" href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
 				{:else}
-					<a href={link.href}>{link.label}</a>
+					<a class="hover:link-primary" href={link.href}>{link.label}</a>
 				{/if}
 			</li>
 		{/each}

@@ -15,8 +15,8 @@
 				class="card-title h-full w-full max-w-4xl md:w-1/2 flex flex-col items-start justify-start"
 			>
 				<h1 class="text-3xl">{info.name}</h1>
-				<span class="text-sm text-primary font-normal">{info.position}</span>
-				<p class="text-base max-w-xl tracking-wide leading-7 font-light">{info.description}</p>
+				<span class="text-base text-primary font-normal">{info.position}</span>
+				<p class="text-sm max-w-xl tracking-wider leading-7 font-light">{info.description}</p>
 			</div>
 		</div>
 	</div>
