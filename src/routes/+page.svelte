@@ -18,11 +18,13 @@
 	developers to learn and contribute. On our server, you'll find resources such as channels
 	for asking questions, sharing code and projects, and networking with other programmers, as
 	well as events and activities such as workshops and hackathons."
-	/>
+	/><meta property="type" content="website" />
+	<meta property="url" content="https://programmingph.vercel.app/" />
+	<meta property="image" content="/lightmode_bg.svg" />
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://pph.vercel.app/" />
+	<meta property="og:url" content="https://programmingph.vercel.app/" />
 	<meta property="og:title" content="Programming Philippines" />
 	<meta
 		property="og:description"
@@ -36,14 +38,11 @@
 	for asking questions, sharing code and projects, and networking with other programmers, as
 	well as events and activities such as workshops and hackathons."
 	/>
-	<meta
-		property="og:image"
-		content="/lightmode_bg.svg"
-	/>
+	<meta property="og:image" content="/lightmode_bg.svg" />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://pph.vercel.app/" />
+	<meta property="twitter:url" content="https://programmingph.vercel.app/" />
 	<meta property="twitter:title" content="Programming Philippines" />
 	<meta
 		property="twitter:description"
@@ -57,10 +56,7 @@
 	for asking questions, sharing code and projects, and networking with other programmers, as
 	well as events and activities such as workshops and hackathons."
 	/>
-	<meta
-		property="twitter:image"
-		content="/lightmode_bg.svg"
-	/>
+	<meta property="twitter:image" content="/lightmode_bg.svg" />
 </svelte:head>
 
 <Hero />
