@@ -51,7 +51,7 @@
 </svelte:head>
 
 <div class="min-h-screen">
-	<div class="conatiner max-w-4xl m-auto p-4">
+	<div class="container max-w-4xl m-auto p-4">
 		<h1 class="text-4xl text-center">EVENTS!</h1>
 		<span class="mt-2">Da Frequently Ask Questions</span>
 		<ul class="steps steps-vertical w-full h-full">
